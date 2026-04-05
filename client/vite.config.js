@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineConfig({
-  base: '/client/',
+  base: "/client/",
+  plugins: [tailwindcss()],
   build: {
-    outDir: '../public/client'
-  }
+    outDir: "../public/client",
+  },
 });
