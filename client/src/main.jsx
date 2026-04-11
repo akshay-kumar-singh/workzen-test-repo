@@ -5,7 +5,7 @@ import Login from './pages/Login.jsx';
 import Signup from './pages/Signup.jsx';
 import Dashboard from './pages/Dashboard.jsx';
 import './index.css';
-import { BrowserRouter, Routes, Route, Link, Navbar, Nav } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, Navbar, Nav, Container } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
